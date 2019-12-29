@@ -1,0 +1,123 @@
+start
+Declare varible Zone, weight, type
+if choice =1
+Enter your Zone
+if Zone =1
+Enter weight
+if weight <=500 && weight <=2000
+charge= 4.90
+else if weight > 500 && weight <=2000
+charge= 4.90+0.8((weight-500)/250)
+else if weight >2000 && weight <=2500
+charge= 10.50
+if weight>2500
+charge = 10.50+0.50*((weight-2500)/500)
+else if zone = 2
+Enter weight
+if weight <=500 && weight <=2000
+charge=5.40
+else if weight>500 && weight <=2000
+charge = 5.10+1.00*((weight-500)/250)
+else if weight > 2000 && weight <=2500
+charge 16.00+2.00*((weight-2500)/500)
+else if zone=3
+Enter weight
+if weight<=500 && weight<=2000
+charge=6.90
+else if weight>500 && weight<=2000
+charge=6.90
+else if weight>500 && weight<=2500
+charge=21.00
+else if weight>2500
+charge= 21.00+3.00*((weight-2500)/500)
+else if Zone=4
+Enter weight
+if weight<=500 && weight <=2000
+charge=7.40
+else if weight>500 && weight<=2000
+charge=7.40+1.50*((weight-500)/250)
+else if weight>2000 && weight<=2500
+charge = 26.00
+else if weight>2500
+charge= 26.00+3.50*((weight-2500)/500)
+else if Zone=5
+Enter weight
+if weight <=500 && weight<=2000
+charge = 7.00
+else if weight > 500 && weight <=2000
+charge=7.90+2.00*((weight-500)/250)
+else if weight>2000 && weight <=2500
+charge=31.00
+else if weight=31.00+4.00*((weight-2500)/500)
+else
+
+public static void SameDay()
+declare variable PaymentRates, weight, DomesticCharge, Surcharge, Total
+if weight <=500 THEN
+Domestic_Charge=4.90
+Surcharge=6.00
+Total=10.90
+break
+Domestic_Charge=5.40
+Surcharge=7.50
+Total=13.90
+
+if weight >500<-750 THEN
+Domestic_Charge=5.70
+Surcharge=6.00
+Total=11.70
+break
+Domestic_Charge=6.40
+Surcharge=7.50
+Total=13.90
+
+if weight >750<=1000
+Domestic_Charge=6.50
+Surcharge=6.00
+Total=12.50
+break
+Domestic_Charge=7.40
+Surcharge=7.50
+Total=14.90
+
+public static void PrepaidBoxEnvelope()
+Enter weight
+Enter parcel Amount
+If weight is less than and equal to 500 
+    Then parcel price = parcel Amount * 7.31
+Else If  weight is more than 500 and less than and equal to 1000
+    Then parcel price = parcel Amount * 10.41
+Else If  weight is more than 1000 and less than and equal to 2000
+    Then parcel price = parcel Amount * 13.78
+Else If  weight is more than 2000 and less than and equal to 5000
+    Then parcel price = parcel Amount * 31.80
+EndIf
+Display parcel price
+
+public static void PosEkspres
+declare variables for quantity, customer, itemtype, weight, totalprice and totalcharge.
+ initialize customer equal to zero
+ while customer less than totalcharge4
+ display customer
+ input first itemtype
+ while itemtype not equal to i
+      input quantity
+      input weight
+         while weight more than one thousand 
+          then display invalid input and input weight
+           while weight less than or equal to one thousand
+           then break
+call method
+     declare variables for price and totalprice
+      if weight less than or equal to one hundred then price = 3.18
+      if weight more than one hundred and less than or equal to two hundred fifty then price =3.71
+      if weight more than two hundred fifty and less than or equal to five hundred the price=4.77
+      if weight more than five hundred and less than or equal to one thousand then price=7.42
+      totalprice=price*quantity
+ display totalprice
+ totalcharge4[customer]=totalcharge4[customer]+totalprice
+ input next itemtype
+ display totalcharge4[customer]
+ customer=customer+1
+
+end
